@@ -93,6 +93,16 @@ export default function Navbar() {
           <li>
             {" "}
             <a
+              href="#case-study"
+              onClick={(e) => handleAnchorClick(e, "#case-study")}
+            >
+              {" "}
+              Case Study{" "}
+            </a>{" "}
+          </li>{" "}
+          <li>
+            {" "}
+            <a
               href="#projects"
               onClick={(e) => handleAnchorClick(e, "#projects")}
             >

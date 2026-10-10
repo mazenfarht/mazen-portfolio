@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TrustBar from "./components/TrustBar";
+import CaseStudy from "./components/CaseStudy";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import WhySection from "./components/WhySection";
@@ -19,6 +20,7 @@ export default function Page() {
       <Navbar />
       <Hero />
       <TrustBar />
+      <CaseStudy />
       <Services />
       <Projects />
       <WhySection />

@@ -12,7 +12,7 @@ export default function TrustBar() {
           <div className="trust-divider"></div>
           <div className="trust-stat reveal">
             <div className="trust-num">
-              3<span className="accent">+</span>
+              2<span className="accent">+</span>
             </div>
             <div className="trust-label">Years Experience</div>
           </div>
@@ -23,8 +23,8 @@ export default function TrustBar() {
           </div>
           <div className="trust-divider"></div>
           <div className="trust-stat reveal">
-            <div className="trust-num trust-num-sm">Websites &amp; Systems</div>
-            <div className="trust-label">Business-Ready Delivery</div>
+            <div className="trust-num trust-num-sm">Corporate Websites</div>
+            <div className="trust-label">Contracting · Industrial · Exhibitions</div>
           </div>
         </div>
       </div>

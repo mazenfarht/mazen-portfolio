@@ -9,46 +9,23 @@ export default function Services() {
           <span className="accent">For Your Business</span>
         </h2>
         <p className="section-sub reveal">
-          From simple landing pages to complete business systems — delivered
-          production-ready
+          Websites that present your company clearly — built, tested and delivered
+          from start to launch
         </p>
         <div className="services-grid">
           <div className="service-card reveal">
             <div className="service-icon">🏢</div>
             <h3>Business Websites</h3>
             <p>
-              Professional websites that represent your company, build
-              credibility, and help clients find and trust you online. Clean,
-              fast, and mobile-friendly.
+              Professional websites that explain your services, products and projects clearly, so customers understand your company and contact you with confidence. Clean, fast, and mobile-friendly.
             </p>
             <div className="service-highlight primary">Core Service</div>
           </div>
           <div className="service-card reveal">
-            <div className="service-icon">🛒</div>
-            <h3>E-Commerce Platforms</h3>
+            <div className="service-icon">🔄</div>
+            <h3>Website Redesign &amp; Performance</h3>
             <p>
-              Online stores with full product management, cart, checkout, and a
-              smooth customer experience — built to drive real sales for your
-              business.
-            </p>
-            <div className="service-highlight primary">Core Service</div>
-          </div>
-          <div className="service-card reveal">
-            <div className="service-icon">🎯</div>
-            <h3>Landing Pages</h3>
-            <p>
-              High-converting landing pages for products, services, and
-              marketing campaigns — designed to turn visitors into customers.
-            </p>
-            <div className="service-highlight primary">Core Service</div>
-          </div>
-          <div className="service-card reveal">
-            <div className="service-icon">📊</div>
-            <h3>Dashboards &amp; Business Systems</h3>
-            <p>
-              Custom dashboards, admin panels, management systems, and internal
-              business tools — built to streamline your operations and save
-              time.
+              Have a website that feels outdated or unclear? I restructure the content, improve the mobile experience and speed, and make the site match the real size of your company. Includes updates, maintenance and ongoing improvements.
             </p>
             <div className="service-highlight primary">Core Service</div>
           </div>
@@ -56,19 +33,31 @@ export default function Services() {
             <div className="service-icon">🌐</div>
             <h3>WordPress Websites</h3>
             <p>
-              Professional, easy-to-manage WordPress websites for businesses —
-              so your team can update content without needing a developer every
-              time.
+              Professional, easy-to-manage WordPress websites — so your team can update content without needing a developer every time.
+            </p>
+            <div className="service-highlight primary">Core Service</div>
+          </div>
+          <div className="service-card reveal">
+            <div className="service-icon">🎯</div>
+            <h3>Landing Pages</h3>
+            <p>
+              Landing pages for products, services and campaigns — designed to turn visitors into enquiries.
             </p>
             <div className="service-highlight secondary">Also Available</div>
           </div>
           <div className="service-card reveal">
-            <div className="service-icon">🔧</div>
-            <h3>Website Support &amp; Improvements</h3>
+            <div className="service-icon">🛒</div>
+            <h3>E-Commerce Platforms</h3>
             <p>
-              Updates, improvements, maintenance, and performance optimization
-              for your existing website — keeping it fast, secure, and up to
-              date.
+              Online stores with product management, cart, checkout and a smooth customer experience.
+            </p>
+            <div className="service-highlight secondary">Also Available</div>
+          </div>
+          <div className="service-card reveal">
+            <div className="service-icon">📊</div>
+            <h3>Dashboards &amp; Business Systems</h3>
+            <p>
+              Custom dashboards, admin panels and internal business tools to streamline your operations.
             </p>
             <div className="service-highlight secondary">Also Available</div>
           </div>

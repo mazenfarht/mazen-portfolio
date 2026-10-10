@@ -1,3 +1,5 @@
+import { FaWhatsapp } from "react-icons/fa";
+
 export default function FinalCTA() {
   //   const handleAnchorClick = (
   //     e: React.MouseEvent<HTMLAnchorElement>,
@@ -24,9 +26,8 @@ export default function FinalCTA() {
             <span className="accent">for your business.</span>
           </h2>
           <p className="final-cta-desc">
-            Tell me what you need and let&apos;s discuss the best solution for
-            your business — whether it&apos;s a website, online store, or a
-            complete web system.
+            Send me your website or your company&apos;s services, and I&apos;ll tell
+            you the first three things I would review.
           </p>
           <div className="final-cta-actions">
             <a href="#contact" className="btn btn-primary btn-lg">
@@ -38,7 +39,7 @@ export default function FinalCTA() {
               rel="noopener noreferrer"
               className="btn btn-wa btn-lg"
             >
-              <i className="fab fa-whatsapp"></i>
+              <FaWhatsapp size={20} />
               Chat on WhatsApp
             </a>
           </div>

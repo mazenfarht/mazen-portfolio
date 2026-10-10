@@ -1,5 +1,7 @@
 "use client";
 
+import { FaWhatsapp } from "react-icons/fa";
+
 import { useEffect, useRef, useState } from "react";
 
 declare global {
@@ -115,12 +117,12 @@ export default function Contact() {
       <div className="container">
         <div className="section-label reveal">07 — Contact</div>
         <h2 className="section-title reveal">
-          Ready to Build Something
+          Send Me Your Website
           <br />
-          <span className="accent">For Your Business?</span>
+          <span className="accent">Or Your Services.</span>
         </h2>
         <p className="section-sub reveal">
-          Send me a message and let&apos;s talk about your project
+          I&apos;ll reply with the first three things I would review or structure
         </p>
         <div className="contact-grid">
           <div className="contact-info reveal">
@@ -174,7 +176,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="btn btn-wa btn-wa-full"
             >
-              <i className="fab fa-whatsapp"></i>
+              <FaWhatsapp size={20} />
               Chat on WhatsApp →
             </a>
             <div className="contact-socials" style={{ marginTop: "20px" }}>
@@ -296,6 +298,7 @@ export default function Contact() {
                     Dashboard / Business System
                   </option>
                   <option value="WordPress Website">WordPress Website</option>
+                  <option value="Website Redesign">Website Redesign</option>
                   <option value="Website Improvement">
                     Website Improvement / Support
                   </option>
@@ -311,7 +314,7 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows={5}
-                  placeholder="Tell me about your business and what you need — as much detail as possible helps me give you a better response..."
+                  placeholder="Your business, what you need, and your current website link (if you have one)..."
                   className={errors.message ? "error" : ""}
                   onChange={() => clearError("message")}
                 ></textarea>

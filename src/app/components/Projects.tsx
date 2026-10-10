@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import ProjectCard from "./ProjectCard";
 
-const PROJECTS_PER_LOAD = 5;
+const PROJECTS_PER_LOAD = 6;
 
 const allProjects = [
   // =========================================================
@@ -14,7 +14,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇸🇦 Saudi Arabia",
     typeBadge: "Corporate Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: End-to-End (Structure to Launch)",
     num: "01",
     title: (
       <>
@@ -55,7 +55,7 @@ const allProjects = [
     type: "website",
     countryBadge: "",
     typeBadge: "Real Estate Website",
-    roleBadge: "My Role: Full Design & Development",
+    roleBadge: "My Role: Full Design & Development · Personal Project",
     num: "02",
     title: (
       <>
@@ -106,7 +106,7 @@ const allProjects = [
     type: "dashboard",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Business System",
-    roleBadge: "My Role: Full Stack Development",
+    roleBadge: "My Role: Full Stack Development · Personal Project",
     num: "03",
     title: (
       <>
@@ -150,7 +150,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇸🇦 Saudi Arabia",
     typeBadge: "Exhibition Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: Built from Scratch · via Anzemah",
     num: "04",
     title: (
       <>
@@ -191,7 +191,7 @@ const allProjects = [
     type: "ecommerce",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "E-Commerce Platform",
-    roleBadge: "My Role: Full Development",
+    roleBadge: "My Role: Full Development · Personal Project",
     num: "05",
     title: (
       <>
@@ -242,7 +242,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Exhibition Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: Updates & Improvements",
     num: "06",
     title: (
       <>
@@ -283,7 +283,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Corporate Website",
-    roleBadge: "My Role: Full Frontend",
+    roleBadge: "My Role: Ongoing Updates · via Anzemah",
     num: "07",
     title: (
       <>
@@ -292,7 +292,7 @@ const allProjects = [
         &amp; Tex EXPO
       </>
     ),
-    desc: "Official website for an international textile & garment exhibition — built for a real client at Anzemah. The site serves as the primary digital presence for the expo, featuring exhibitor showcases, event information, and a registration system.",
+    desc: "Official website for an international textile & garment exhibition — worked on through Anzemah. The site serves as the primary digital presence for the expo, featuring exhibitor showcases, event information, and a registration system.",
     features: [
       "🏢 Official exhibition digital presence",
       "📋 Exhibitor showcase & registration",
@@ -324,7 +324,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇸🇦 Saudi Arabia",
     typeBadge: "Corporate Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: End-to-End (Structure to Launch)",
     num: "08",
     title: (
       <>
@@ -365,7 +365,7 @@ const allProjects = [
     type: "ecommerce",
     countryBadge: "",
     typeBadge: "E-Commerce Platform",
-    roleBadge: "My Role: Full Development",
+    roleBadge: "My Role: Full Development · Personal Project",
     num: "09",
     title: (
       <>
@@ -416,7 +416,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Exhibition Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: Ongoing Updates · via Anzemah",
     num: "10",
     title: (
       <>
@@ -498,7 +498,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇨🇭 Switzerland",
     typeBadge: "Education Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: Ongoing Updates · via Anzemah",
     num: "12",
     title: (
       <>
@@ -539,7 +539,7 @@ const allProjects = [
     type: "landing",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Landing Page",
-    roleBadge: "My Role: Full Development",
+    roleBadge: "My Role: Full Development · Demo",
     num: "13",
     title: (
       <>
@@ -558,15 +558,7 @@ const allProjects = [
     techLine: "HTML5 · CSS3 · JavaScript · Responsive",
     links: (
       <>
-        {/* Replace this URL with your actual Cafe project URL */}
-        <a
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-primary btn-sm"
-        >
-          Live Demo →
-        </a>
+        <span className="deployment-badge">🚧 Demo link coming soon</span>
       </>
     ),
     imageSrc: "cafe.png",
@@ -583,7 +575,7 @@ const allProjects = [
     type: "landing",
     countryBadge: "🇪🇬 Egypt",
     typeBadge: "Landing Page",
-    roleBadge: "My Role: Full Development",
+    roleBadge: "My Role: Full Development · Demo",
     num: "14",
     title: (
       <>
@@ -634,7 +626,7 @@ const allProjects = [
     type: "website",
     countryBadge: "🇸🇦 Saudi Arabia",
     typeBadge: "Corporate Website",
-    roleBadge: "My Role: Frontend Development",
+    roleBadge: "My Role: End-to-End (Structure to Launch)",
     num: "15",
     title: (
       <>
@@ -668,11 +660,31 @@ const allProjects = [
   },
 ];
 
+// Client work first (Saudi group → industrial → ongoing client work), then personal projects & demos
+const ORDER = [
+  "01",
+  "15",
+  "08",
+  "04",
+
+  "07",
+  "10",
+  "12",
+  "11",
+  "02",
+  "03",
+  "05",
+  "09",
+  "14",
+  "13",
+];
+const orderedProjects = ORDER.map((n) => allProjects.find((p) => p.num === n)!);
+
 export default function Projects() {
   const [currentFilter, setCurrentFilter] = useState("all");
   const [visibleCount, setVisibleCount] = useState(PROJECTS_PER_LOAD);
 
-  const filteredProjects = allProjects.filter((p) => {
+  const filteredProjects = orderedProjects.filter((p) => {
     if (currentFilter === "all") return true;
     return p.country === currentFilter || p.type === currentFilter;
   });
@@ -719,13 +731,14 @@ export default function Projects() {
       <div className="container">
         <div className="section-label reveal">02 — Projects</div>
         <h2 className="section-title reveal">
-          Real Work.
+          Selected
           <br />
-          <span className="accent">Real Results.</span>
+          <span className="accent">Work.</span>
         </h2>
         <p className="section-sub reveal">
-          Business websites, e-commerce platforms, and systems — built for real
-          clients
+          Client websites first — Saudi corporate and industrial work,
+          exhibitions and ongoing client projects — followed by personal
+          projects and demos
         </p>
 
         <div className="project-filters reveal">
@@ -744,8 +757,13 @@ export default function Projects() {
         </div>
 
         <div className="projects-featured" id="projectsGrid">
-          {visibleProjects.map((project) => (
-            <ProjectCard key={project.num} {...project} />
+          {visibleProjects.map((project, i) => (
+            <ProjectCard
+              key={project.num}
+              {...project}
+              num={String(i + 1).padStart(2, "0")}
+              reverse={i % 2 === 1}
+            />
           ))}
         </div>
 
@@ -768,8 +786,8 @@ export default function Projects() {
 
         <div className="projects-view-all reveal">
           <p className="pva-note">
-            More projects including Saudi work, additional Egyptian projects,
-            and WordPress websites — available on request.
+            Want something similar for your company? Send me your website or
+            your services and I'll tell you what I would structure first.
           </p>
           <a
             href="#contact"

@@ -14,16 +14,14 @@ export default function WhySection() {
             <h3>Real Client Experience</h3>
             <p>
               Experience delivering real websites and systems for actual
-              businesses — not just personal or academic projects. Real
-              deadlines, real feedback, real results.
+              businesses — not just personal or academic projects. Real deadlines and real feedback.
             </p>
           </div>
           <div className="why-card reveal">
             <div className="why-icon">🌍</div>
             <h3>Egypt &amp; Saudi Experience</h3>
             <p>
-              Experience working with businesses and clients across Egypt and
-              Saudi Arabia — understanding the market, expectations, and how to
+              Experience working with a Saudi contracting and industrial group and with businesses across Egypt — understanding the market, expectations, and how to
               communicate effectively with local businesses.
             </p>
           </div>

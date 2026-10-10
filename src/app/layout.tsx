@@ -2,41 +2,36 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
-const SITE_URL = "https://mazen-mostafa-portfolio.vercel.app";
+// Change this one line if you move to a custom domain
+const SITE_URL = "https://mazen-studio.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: "Mazen Mostafa | Frontend Developer",
+    default: "Mazen Mostafa | Web Developer — Business & Corporate Websites",
     template: "%s | Mazen Mostafa",
   },
 
   description:
-    "Mazen Mostafa is a Frontend Developer specializing in React.js, Next.js, TypeScript, and modern web development. Explore his portfolio, projects, skills, and frontend development services.",
+    "Web Developer building clear, fast business and corporate websites for companies in Saudi Arabia and Egypt. WordPress, React & Next.js. Corporate, industrial and contracting websites.",
 
   keywords: [
     "Mazen Mostafa",
-    "Mazen Mostafa Frontend Developer",
-    "Frontend Developer",
-    "Frontend Developer Egypt",
-    "React.js Developer",
-    "React Developer Egypt",
-    "Next.js Developer",
-    "Next.js Developer Egypt",
-    "TypeScript Developer",
-    "JavaScript Developer",
+    "Mazen Mostafa Web Developer",
+    "Web Developer Egypt",
     "Web Developer Cairo",
-    "Frontend Developer Cairo",
-    "React.js",
-    "Next.js",
-    "TypeScript",
-    "JavaScript",
-    "Tailwind CSS",
-    "Responsive Web Development",
-    "Web Applications",
-    "Dashboard Development",
-    "Freelance Frontend Developer",
+    "Business Website Developer",
+    "Corporate Website Developer Saudi Arabia",
+    "Website Developer for Contracting Companies",
+    "MEP Company Website",
+    "WordPress Developer Egypt",
+    "WordPress Developer Saudi Arabia",
+    "Next.js Developer",
+    "React.js Developer",
+    "Website Redesign",
+    "Website Performance Optimization",
+    "Freelance Web Developer",
   ],
 
   authors: [
@@ -75,17 +70,17 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "Mazen Mostafa Portfolio",
 
-    title: "Mazen Mostafa | Frontend Developer",
+    title: "Mazen Mostafa | Web Developer — Business & Corporate Websites",
 
     description:
-      "Frontend Developer specializing in React.js, Next.js, TypeScript, and modern web development. Explore projects, skills, and frontend development services.",
+      "Business and corporate websites for companies in Saudi Arabia and Egypt. WordPress, React & Next.js.",
 
     images: [
       {
-        url: `https://mazen-mostafa-portfolio.vercel.app/BannerM.png`,
+        url: `${SITE_URL}/BannerM.png`,
         width: 1200,
         height: 630,
-        alt: "Mazen Mostafa - Frontend Developer Portfolio",
+        alt: "Mazen Mostafa - Web Developer Portfolio",
         type: "image/png",
       },
     ],
@@ -94,12 +89,12 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Mazen Mostafa | Frontend Developer",
+    title: "Mazen Mostafa | Web Developer — Business & Corporate Websites",
 
     description:
-      "Frontend Developer specializing in React.js, Next.js, TypeScript, and modern web development.",
+      "Business and corporate websites for companies in Saudi Arabia and Egypt.",
 
-    images: [`https://mazen-mostafa-portfolio.vercel.app/BannerM.png`],
+    images: [`${SITE_URL}/BannerM.png`],
   },
 
   icons: {
@@ -144,9 +139,9 @@ export default function RootLayout({
               "@type": "Person",
               name: "Mazen Mostafa Sayed",
               url: SITE_URL,
-              jobTitle: "Frontend Developer",
+              jobTitle: "Web Developer",
               description:
-                "Frontend Developer specializing in React.js, Next.js, TypeScript, and modern web development.",
+                "Web Developer building business and corporate websites for companies in Saudi Arabia and Egypt.",
               image: `${SITE_URL}/BannerM.png`,
               knowsAbout: [
                 "React.js",
@@ -157,7 +152,8 @@ export default function RootLayout({
                 "CSS",
                 "Tailwind CSS",
                 "Responsive Web Design",
-                "Frontend Development",
+                "Business Websites",
+                "WordPress",
                 "Web Development",
               ],
             }),
@@ -174,7 +170,7 @@ export default function RootLayout({
               name: "Mazen Mostafa Portfolio",
               url: SITE_URL,
               description:
-                "Portfolio website of Mazen Mostafa, a Frontend Developer specializing in React.js, Next.js, and TypeScript.",
+                "Portfolio website of Mazen Mostafa, a Web Developer building business and corporate websites in Saudi Arabia and Egypt.",
               author: {
                 "@type": "Person",
                 name: "Mazen Mostafa Sayed",

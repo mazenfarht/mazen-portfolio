@@ -11,7 +11,7 @@ const faqData: FAQItem[] = [
   {
     question: "What types of businesses do you work with?",
     answer:
-      "I've worked with clinics, retail stores, real estate companies, and exhibition organizers, but any business that needs a website, landing page, online store, or web-based system is a good fit. Whether you're a startup or an established company, I'll build something that matches your needs.",
+      "I've worked with a Saudi contracting and industrial group, exhibition organizers, an international business school, and companies across Egypt. Any established business that needs a clear, professional website is a good fit.",
   },
   {
     question: "How long does a website take to build?",
@@ -21,7 +21,12 @@ const faqData: FAQItem[] = [
   {
     question: "How much does a website cost?",
     answer:
-      "Pricing depends on the scope of the project: the number of pages, features, and whether you need things like online payments or a dashboard. Once you tell me what you need, I'll send a clear quote before any work starts, with no hidden costs. Small projects such as landing pages start from [YOUR STARTING PRICE].",
+      "Pricing depends on the number of pages, the features and the content. Send me a description of what you need and I'll send a clear quote before any work starts, with no hidden costs.",
+  },
+  {
+    question: "Can you review my current website for free?",
+    answer:
+      "Yes. Send me your website link and I'll tell you the first three things I would review: how clearly your services are presented, the mobile experience, and how easy it is for customers to contact you.",
   },
   {
     question: "Do you handle both design and development?",

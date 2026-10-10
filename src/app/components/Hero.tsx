@@ -4,11 +4,10 @@ import { useEffect, useRef } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 const phrases = [
   "Business Websites",
-  "E-Commerce Platforms",
-  "Landing Pages",
-  "Web Dashboards",
-  "Business Systems",
+  "Corporate & Industrial Websites",
+  "Website Redesign",
   "WordPress Websites",
+  "Next.js Websites",
 ];
 
 export default function Hero() {
@@ -139,20 +138,24 @@ export default function Hero() {
         </div>
 
         <p className="hero-desc reveal">
-          I build <strong>business websites</strong>,{" "}
-          <strong>e-commerce platforms</strong>, <strong>landing pages</strong>,
-          and <strong>web systems</strong> for businesses in Egypt and Saudi
-          Arabia — production-ready, professional, and built to grow your
-          business.
+          I build websites that make businesses{" "}
+          <strong>easier to understand, trust, and engage with online</strong>.
+          Corporate, industrial and contracting websites for companies in Saudi
+          Arabia and Egypt — clear, fast, and aligned with your business.
         </p>
 
         <div className="hero-ctas reveal">
-          <a href="#projects" className="btn btn-primary btn-lg">
-            View My Work <span className="btn-arrow">→</span>
+          <a href="#case-study" className="btn btn-primary btn-lg">
+            See the Al Faraj Case Study <span className="btn-arrow">→</span>
           </a>
 
-          <a href="#contact" className="btn btn-primary btn-lg">
-            Start a Project
+          <a
+            href="https://wa.me/201142330408?text=Hello%20Mazen%2C%20I%27d%20like%20a%20quick%20review%20of%20my%20company%20website%3A%20"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-lg"
+          >
+            Get a Free Website Review
           </a>
 
           <a
@@ -169,11 +172,11 @@ export default function Hero() {
         <div className="hero-badges reveal">
           <span className="hero-badge">🌍 Egypt &amp; Saudi Arabia</span>
 
-          <span className="hero-badge">🏢 Business Websites</span>
+          <span className="hero-badge">🏢 Corporate Websites</span>
 
-          <span className="hero-badge">🛒 E-Commerce</span>
+          <span className="hero-badge">🏗️ Industrial &amp; Contracting</span>
 
-          <span className="hero-badge">📊 Dashboards &amp; Systems</span>
+          <span className="hero-badge">⚡ WordPress &amp; Next.js</span>
         </div>
       </div>
 

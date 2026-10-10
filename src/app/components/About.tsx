@@ -11,25 +11,24 @@ export default function About() {
               <span className="accent">for real businesses.</span>
             </h2>
             <p className="reveal">
-              I&apos;m <strong>Mazen Mostafa</strong>, a professional web
-              developer based in Cairo, Egypt. I specialize in building business
-              websites, e-commerce platforms, dashboards, and web systems for
-              businesses — with a focus on delivering professional,
-              production-ready results that actually work for your business.
+              I&apos;m <strong>Mazen Mostafa</strong>, a web developer based in
+              Egypt. I help companies turn their services, products and
+              expertise into clear, professional websites — especially
+              corporate, industrial and contracting companies — using WordPress
+              and modern frameworks like Next.js.
             </p>
             <p className="reveal">
-              I&apos;ve worked on real client projects in Egypt, built websites
-              through Anzemah — a web development company serving regional
-              clients — and have experience delivering across different
-              industries including healthcare, retail, real estate, and
-              exhibitions. I&apos;ve handled everything from WordPress websites
-              to custom-built React and Next.js systems.
+              I currently work as a Web Developer at Anzemah, a web development
+              company serving regional clients, alongside my freelance work.
+              I&apos;ve built corporate websites for a Saudi contracting and
+              industrial group (AAFCE, Eastern Petra and Al Faraj Group), and
+              worked on exhibition, education and business websites for clients
+              in Egypt, Saudi Arabia and abroad.
             </p>
             <p className="reveal">
-              My approach is simple: understand what your business needs, build
-              it properly, and deliver it on time. Whether you&apos;re a small
-              business needing your first website or a company that needs a
-              custom system, I focus on outcomes — not just on writing code.
+              My approach is simple: understand the business first, organize
+              its services and content clearly, build it properly, and deliver
+              it on time. I focus on outcomes — not just on writing code.
             </p>
             <div className="about-tech-line reveal">
               React.js · Next.js · TypeScript · WordPress · JavaScript ·
@@ -91,14 +90,14 @@ export default function About() {
                   {"  "}
                   <span className="c-prop">builds</span>: [{"\n"}
                   {"    "}
-                  <span className="c-str">&quot;Business Websites&quot;</span>,
+                  <span className="c-str">&quot;Corporate Websites&quot;</span>,
                   {"\n"}
                   {"    "}
-                  <span className="c-str">&quot;E-Commerce&quot;</span>,{"\n"}
+                  <span className="c-str">&quot;Website Redesign&quot;</span>,{"\n"}
                   {"    "}
-                  <span className="c-str">&quot;Dashboards&quot;</span>,{"\n"}
+                  <span className="c-str">&quot;WordPress Websites&quot;</span>,{"\n"}
                   {"    "}
-                  <span className="c-str">&quot;Web Systems&quot;</span>,{"\n"}
+                  <span className="c-str">&quot;Next.js Websites&quot;</span>,{"\n"}
                   {"  "}],{"\n"}
                   {"  "}
                   <span className="c-prop">focus</span>:{" "}
@@ -116,7 +115,7 @@ export default function About() {
               <div>
                 <div className="badge-title">Anzemah — Web Development</div>
                 <div className="badge-sub">
-                  Frontend Developer · Real Client Projects
+                  Web Developer · Also Freelance
                 </div>
               </div>
             </div>
